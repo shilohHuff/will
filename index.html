@@ -1,20 +1,31 @@
 
 <!DOCTYPE html>
 <html>
+    <head>
+            <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
+    </head>
 <body>
 
-<h1>William Webb</h1>
-<img src="will.jpg" alt="William Webb">
-<p>"With Docker and OpenShit, I am able to customize the environment <br/>
-    I run applications in myself, without the need for 
-    weeks and multiple requests and man hours of other people, <br/>
-    vastly increasing my productivity and the value of the products we produce."
-</p>
-
-<p>- William Webb</p>
-
-
-<div id="twitch-embed"></div>
+<section class="container with-title">
+    <h1 class="title">William Webb</h1>
+    <img style="align-self: center; padding-bottom: 20px; " src="will.jpg" alt="William Webb">
+    <div class="containers">
+            <div class="container with-title">
+                <label class="title">Will on Talon</label>
+                <p>"With Docker and OpenShit, I am able to customize the environment
+                    I run applications in myself, without the need for 
+                    weeks and multiple requests and man hours of other people,
+                    vastly increasing my productivity and the value of the products we produce."
+                </p>
+                <p>- William Webb</p>
+            </div>
+            <div class="container with-title">
+                <label class="title">Jug6ernaut(Will) on Twitch</label>
+                <div id="twitch-embed"></div>
+            </div>
+            
+    </div>
+</section> 
 
 <!-- Load the Twitch embed script -->
 <script src="https://embed.twitch.tv/embed/v1.js"></script>
